@@ -1350,6 +1350,11 @@ nav ul ul ul li {
 	max-width: 200px;
 	width: 200px;
 }
+.social-proof {
+	margin-top: 1.5rem;
+	max-width: 150px;
+	/*width: 150px;*/
+}
 .team-member-position {
 	padding: .25rem;
 	height: 2.8rem;
