@@ -232,6 +232,50 @@ button:focus {
 	}
 }
 
+.primary-button-center-wrapper {
+	display: flex;
+}
+.primary-button-center {
+	border: none;
+	background-color: #FFCC00;
+	background-color: var(--color-secondary-blue);
+	color: #222121;
+	color: var(--color-white-h3-normal);
+	font-size: 1.1rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+.primary-button-center.btn-angular-small {
+	padding: 10px 25px;
+	width: 160px;
+	margin-right: 16px;
+}
+.primary-button-center.btn-angular-small2 {
+	padding: 10px 25px;
+	width: 400px;
+	margin-right: 16px;
+}
+.primary-button-center.btn-rounded {
+	padding: 6px 6px;
+	border-radius: 30px;
+	width: 160px;
+}
+.primary-button-center.btn-rounded-long {
+	padding: 10px 25px;
+	width: 400px;
+	border-radius: 30px;
+	margin-right: 16px;
+}
+@media (max-width: 576px) {
+	.primary-button-center-wrapper {
+		flex-direction: column;	
+	}
+	.primary-button-center.btn-angular-small {
+		width: 70vw;
+	}
+}
+
 
 .secondary-button {
 	cursor: pointer;
